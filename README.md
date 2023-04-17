@@ -60,8 +60,6 @@ Download the code in your computer, after the requirements satisfied run this co
 terraform plan<br>
 terraform apply --auto-approve<br></code>
 
-As soon as terraform finish your new VPC with the resources needed by EKS Digibee will be ready to use.
-
 **Module Reference:**
 
 Reference this module using the GIT URL.
