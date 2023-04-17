@@ -67,7 +67,7 @@ Dont forget of provide the region declared on Requirements section on module dec
 
 ```
 module "networking" {
-    source = "https://github.com/lazevedo-devops/terraform-aws-networking.git"
+    source = "lazevedo-devops/networking/aws"
     region = "aws_region"(i.e.q: us-east-1)
 }
 ```
