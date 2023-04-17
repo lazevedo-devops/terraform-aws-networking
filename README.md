@@ -12,16 +12,16 @@ _Obs.: Using the default values the module will create 3 EIPs (1 for each NGW), 
 
 
 #### VPC:<br>
-CIDR: 12.0.0.0/16<br>
+CIDR: 10.254.0.0/16<br>
 
 #### SUBNETS:<br>
-public 1 CIDR: 12.0.0.0/19<br>
-public 2 CIDR: 12.0.32.0/19<br>
-public 3 CIDR: 12.0.64.0/19<br>
+public 1 CIDR: 10.254.10.0/24<br>
+public 2 CIDR: 10.254.20.0/24<br>
+public 3 CIDR: 10.254.30.0/24<br>
 
-private 1 CIDR: 12.1.0.0/19<br>
-private 2 CIDR: 12.1.32.0/19<br>
-private 3 CIDR: 12.1.64.0/19<br>
+private 1 CIDR: 10.254.110.0/24<br>
+private 2 CIDR: 10.254.120.0/24<br>
+private 3 CIDR: 10.254.130.0/24<br>
 
 In case of you want customize this address, you can pass on the call of module the variables with new values using terraform.tfvars per example or even within the module calling block.
 
